@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>What's new</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="mystylesheet.css">
+    <script src="myjavascript.js"></script>
+
+
+</head>
+<body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark ">
+    <img src="images/logo1.PNG" align="left" alt="logo" class="logo" >
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item active">
+
+                <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Services.html">Services</a>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="What's%20new.html">What's new</a>
+            </li>
+
+        </ul>
+        <div class="dropdown">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                Support
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="E-commerce.html">E-commerce</a>
+                <a class="dropdown-item" href="Login.html">Login</a>
+                <a class="dropdown-item" href="Blog.html">Blog</a>
+            </div>
+        </div>
+        <img src="images/flag.png" alt="flag" class="flag">
+    </nav>
+</nav>
+<hr color="white" size="10pt">
+
+<div class="jumbotron">
+
+</div>
+<div class="jumbotron">
+    <progress value="0" max="100" id="uploader">0%</progress>
+    <input type="file" value="upload" id="fileButton">
+
+    <img src="" alt="image" width="100" height="100" id="holder">
+</div>
+
+
+<!--comments by people-->
+<div class="media">
+    <img class="d-flex rounded-circle avatar z-depth-1-half mr-3" src="images/harsh.JPG" height="100pt" width="100pt"
+         alt="Avatar">
+    <div class="media-body">
+        <h5 class="mt-0 font-weight-bold blue-text">Harshdeep singh</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+        odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+        fringilla. Donec lacinia congue felis in faucibus.
+
+        <div class="media mt-3 shadow-textarea">
+            <img class="d-flex rounded-circle avatar z-depth-1-half mr-3" src="images/simrat.JPG" height="100pt" width="100pt"
+                 alt="Generic placeholder image">
+            <div class="media-body">
+                <h5 class="mt-0 font-weight-bold blue-text">simrat</h5>
+                <div class="form-group basic-textarea rounded-corners">
+                    <textarea class="form-control z-depth-1" id="exampleFormControlTextarea345" rows="3" placeholder="Write your comment..."></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="media">
+    <img class="d-flex rounded-circle avatar z-depth-1-half mr-3" src="images/raj.jpg" height="100pt" width="100pt"
+         alt="Avatar">
+    <div class="media-body">
+        <h5 class="mt-0 font-weight-bold blue-text">Rajwinder</h5>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis odit minima eaque dignissimos recusandae
+        officiis commodi nulla est, tempore atque voluptas non quod maxime, iusto, debitis aliquid? Iure ipsum,
+        itaque.
+    </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAHvGxKIPq2jKvyfSUnG3AET0s6gKOfx0g",
+        authDomain: "final-project-8692a.firebaseapp.com",
+        databaseURL: "https://final-project-8692a.firebaseio.com",
+        projectId: "final-project-8692a",
+        storageBucket: "final-project-8692a.appspot.com",
+        messagingSenderId: "326131468742"
+    };
+    firebase.initializeApp(config);
+</script>
+
+
+</body>
+</html>

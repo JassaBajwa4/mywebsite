@@ -1,0 +1,165 @@
+body {
+    background: white;
+}
+
+.logo {
+    width: 90pt;
+    height: 42pt;
+}
+
+.flag {
+    float: right;
+    width: 30pt;
+    height: 13pt;
+    margin-left: 10pt;
+}
+
+
+.jumbotron {
+    background-color: whitesmoke;
+    margin-top: 60pt;
+    box-shadow: 10px 10px 8px #888888;
+    color: black;
+}
+
+.image {
+    width: 100%;
+    margin-top: 100pt;
+    margin-bottom: 60pt;
+    height: auto;
+}
+
+.text1 {
+    text-align:center;
+    font-family: "Candara Light",serif;
+}
+
+.text2 {
+    text-align: center;
+    font-family: Candara,serif;
+}
+.text3 {
+    text-align: center;
+    font-family: "Candara Light",serif;
+}
+
+
+.card {
+    background-color: whitesmoke;
+    color: black;
+    font-family: "candara",serif;
+    font-size: 25pt;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.gallery {
+    font-size: 20pt;
+    font-family: "candara-light", serif;
+    color: black;
+    text-align: center;
+}
+
+
+.slide {
+    height: 500pt;
+    width: 250pt;
+}
+
+
+.login {
+    font-size: 25pt;
+    font-family: "candara",serif;
+    color: deepskyblue;
+}
+
+#form100 {
+    background-color:rgba(0,0,0,0.35);
+    color: black;
+    width: 500pt;
+}
+#form101 {
+    background-color: rgba(0,0,0,0.35);
+    width: 500pt;
+}
+#form102 {
+    background-color: rgba(0,0,0,0.35);
+    width: 500pt;
+}
+#form103 {
+    background-color: rgba(0,0,0,0.35);
+    width: 500pt;
+}
+.form-control {
+    color: black;
+}
+
+
+.me {
+    height: 500pt;
+    width: 400pt;
+
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+    position: relative;
+    display: none;
+    height: 500pt;
+    width: 750pt;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+#footer {
+    color: white;
+}
+
+.sub {
+    margin-right: 40pt;
+    height: 500pt;
+}
+.art {
+    text-align: right;
+    font-family: candara-light,serif;
+}
